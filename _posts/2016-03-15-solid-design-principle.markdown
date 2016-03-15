@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Beginner's Guide to S.O.L.I.D Design Principles"
-permalink: "/magentofox/beginners-guide-to-solid-design-principles/"
+title:  "Simple PHP Guide to S.O.L.I.D Design Principles"
+permalink: "/magentofox/simple-php-guide-to-solid-design-principles/"
 date:   2016-03-15 10:00:00 +0000
 categories: magento
 author: Adam Moss
@@ -154,7 +154,7 @@ class Instrument
 }
 {% endhighlight %}
 
-The instrument class may behave as an abstract and could be implemented in teh following ways:
+The instrument class may behave as an abstract and could be implemented in the following ways:
 
 {% highlight php %}
 <?php 

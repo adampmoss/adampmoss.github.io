@@ -15,7 +15,7 @@ heading: Magento Fox Blog
         <h2 class="post-list-heading">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <span class="post-meta">{{ post.date | date: "%-d %B, %Y" }}</span>
+        <span class="post-meta">Posted on {{ post.date | date: "%-d %B, %Y" }}</span>
       <p class="article__excerpt">{{ post.excerpt }}</p>
       <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read Post</a>
       </li>
