@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Magento Fox is Back"
+permalink: "/magentofox/im-back/"
+date:   2016-03-14 18:17:27 +0000
+categories: magento
+author: Adam Moss
+---
+
+Hi ya'll, how's things? I've been in the wilderness the last few years and have been itching to get back to blogging about all things Magento. 
+
+As always you can find me on Twitter at [@magentofox](http://twitter.com/magentofox)

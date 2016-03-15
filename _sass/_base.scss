@@ -82,9 +82,13 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
     font-weight: $base-font-weight;
+    color:$black-color;
+    a {
+        color:$black-color;
+    }
 }
-
 
 
 /**
@@ -94,13 +98,9 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration:none;
     }
 }
 
@@ -184,6 +184,10 @@ pre {
         display: table;
         clear: both;
     }
+}
+
+.button {
+    @include button($brand-color);
 }
 
 
