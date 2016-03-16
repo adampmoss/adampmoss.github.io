@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Photography
+title: 
 ---
 
 # My Photographs

@@ -6,10 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: adammoss.co.uk
-email: ""
-description: > # this means to ignore newlines until "baseurl:"
-  This is my new blog built in Jekyll.
+title: Adam Moss
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://adammoss.co.uk" # the base hostname & protocol for your site
 twitter_username: adampmoss
@@ -17,3 +14,9 @@ github_username:  adampmoss
 
 # Build settings
 markdown: kramdown
+
+gems: ['jekyll-paginate']
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"

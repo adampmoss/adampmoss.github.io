@@ -4,17 +4,24 @@
 
 .site-header {
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 70px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+.certifications {
+    height:40px;
+    max-height:40px;
+    margin-left: 10px;
+    margin-top: -10px;
 }
 
 .site-title {
     font-family: 'Patua One', cursive;
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 70px;
     letter-spacing: -1px;
     margin-bottom: 0;
     color:$black-color;
@@ -22,7 +29,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 70px;
 
     .menu-icon {
         display: none;
@@ -178,7 +185,14 @@
     list-style: none;
 
     > li {
+        padding-bottom: $spacing-unit+10;
         margin-bottom: $spacing-unit;
+        border-bottom: 1px solid $grey-color-light;
+
+        &:last-child
+        {
+            border-bottom:0;
+        }
     }
 }
 
@@ -227,18 +241,18 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 18px;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 }
@@ -256,7 +270,7 @@
 
 .twitter-button {
     @include button($twitter-color);
-    margin-bottom:35px;
+    margin-bottom:55px;
     .icon {
         > svg {
             path {
@@ -265,3 +279,40 @@
         }
     }
 }
+
+.pag {
+  padding-top: calc(var(--lh) / 2);
+  text-align: center;
+}
+
+  .pag__btn {
+    height: calc(var(--lh) * 1.5);
+    padding: 0 var(--lh);
+    color: #b1b1b1;
+    line-height: calc(var(--lh) * 1.5);
+    box-shadow: inset 0 0 0 1px var(--color-border);
+
+
+    &--prev {
+      float: left;
+    }
+
+    &--next {
+      float: right;
+    }
+
+    &:hover {
+      color: var(--color1);
+      text-decoration: none;
+      box-shadow: inset 0 0 0 1px var(--color1);
+    }
+  }
+
+  .pag__now {
+    display: inline;
+    color: #b1b1b1;
+    font-size: var(--h5);
+    line-height: calc(var(--lh) * 1.5);
+    vertical-align: top;
+  }
+

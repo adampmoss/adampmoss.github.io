@@ -7,15 +7,15 @@ categories: magento
 author: Adam Moss
 ---
 
-**S.O.L.I.D** is a coding standard that all PHP developers should be familiar with when undertaking Magento development. It was introduced over a decade ago by Robert C Martin (Uncle Bob) and is used across the object-oriented design spectrum. Why use these principles I hear you ask? When applied properly it makes your code more extendable, logical and easier to read.
+**S.O.L.I.D** is a coding standard that all PHP developers should be familiar with when undertaking Magento module development. It was introduced over a decade ago by Robert C Martin (Uncle Bob) and is used across the object-oriented design spectrum. Why use these principles I hear you ask? When applied properly it makes your code more extendable, logical and easier to read.
 
 I'm going to try and keep this as jargon-free as possible so it's easy for beginners to understand. Let's go through each principle one by one:
 
 ### S: Single Responsibility Principle
 
-Each class should have *one* responsibility and *one* responsibility only. This means that all the methods and properties should all work towards the same goal. This is done very well in Magento 2 with the introduction of interfaces. 
+Each class should have *one* responsibility and *one* responsibility only. This means that all the methods and properties should all work towards the same goal.
 
-Lets take the following simple class as an example:
+Lets take the following simple class as an example of how this principle may be violated:
 
 {% highlight php %}
 <?php 
@@ -75,7 +75,7 @@ class TradeCustomer implements CustomerInterface
 
 ### O: Open-closed Principle
 
-In a nutshell your classes should be extendable without actually changing the contents of the class you're extending. Here's a very basic example of how this principle can be violated if we introduce another customer type:
+In a nutshell your classes should be extendable without actually changing the contents of the class you're extending. Here's a very basic example of how this principle can be violated if we had to introduce another customer type:
 
 {% highlight php %}
 <?php 
@@ -208,7 +208,7 @@ class Trumpet implements InstrumentInterface {
 }
 {% endhighlight %}
 
-An ISP-safe method is to create an interface for each of the instruments that employs only the methods needed for the client:
+The Trumpet class has autoTune() and plugIn() forced upon it - I'm not saying that there's no plugin-in trumpets out there but in this case I'm talking about a standard acoustic trumpet. An ISP-safe method is to create an interface for each of the instruments that employs only the methods needed for the client:
 
 {% highlight php %}
 <?php 
@@ -242,7 +242,7 @@ class Trumpet implements InstrumentInterface {
 
 This principle states that high level modules should not depend on low level modules. High level modules should never change and should be decoupled (seperated) from low level modules that could be changed on a daily basis.
 
-The introduction of dependency injection in Magento 2 has made this principle easier to adhere to, as it is now clear which classes and clients are dependent on who.
+The introduction of dependency injection in Magento 2 has made this principle easier to adhere to, as it is now clear which classes and clients are dependent on each other.
 
 Take the example below which shows a rather limited example of higher level code being dependent on lower level code:
 

@@ -6,7 +6,10 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+    word-wrap: break-word;      /* IE 5+ */
 }
+
+
 
 
 
@@ -111,10 +114,10 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
+    font-weight:100;
     font-style: italic;
 
     > :last-child {
@@ -129,10 +132,11 @@ blockquote {
  */
 pre,
 code {
+    color:$white-color;
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid #272822;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #272822;
 }
 
 code {
