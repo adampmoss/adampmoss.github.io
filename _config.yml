@@ -11,6 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://adammoss.co.uk" # the base hostname & protocol for your site
 twitter_username: adampmoss
 github_username:  adampmoss
+description: "The personal blog of Adam Moss, including detailed Magento 1 & 2 posts brought to you by the Magento Fox"
 
 # Build settings
 markdown: kramdown
