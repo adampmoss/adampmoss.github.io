@@ -14,6 +14,7 @@ In the following tutorials I'm going to take you through the very basics of crea
 - [Part 3 - Creating a helper](/magentofox/magento-2-basics-part-3-creating-a-helper/)
 - [Part 4 - Creating an observer](/magentofox/magento-2-basics-part-4-creating-an-observer/)
 - [Part 5 - Creating an admin page](/magentofox/magento-2-basics-part-5-creating-an-admin-page/)
+- [Part 6 - Using Plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
 
 *Note - I'm going to cover the basics of a local module created in app/code. Modules should ideally be developed in separate repositories and installed with Composer.*
 

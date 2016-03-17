@@ -14,6 +14,7 @@ Part 4 is another pretty straighforward section, how to add an event observer in
 - [Part 3 - Creating a helper](/magentofox/magento-2-basics-part-3-creating-a-helper/)
 - **Part 4 - Creating an observer**
 - [Part 5 - Creating an admin page](/magentofox/magento-2-basics-part-5-creating-an-admin-page/)
+- [Part 6 - Using Plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
 
 There are two steps to creating an observer once you've decided which event you want to hook into. First you declare it in a brand-spanking new XML file and then you create the observer class, a separate class for each observer!
 
@@ -59,8 +60,6 @@ class Fire implements ObserverInterface
 "Done" will now be echoed annoyingly at the top of the page when the event is dispatched. As with Magento 1 observer data can be accessed with:
 
     $observer->getEvent()
-
-[Part 5 - Creating an admin page &raquo;](/magentofox/magento-2-basics-part-5-creating-an-admin-page/)
 
 That's all folks!
 
