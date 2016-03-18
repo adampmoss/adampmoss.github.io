@@ -14,7 +14,7 @@ Adding elements to the admin area is always a requirement when working with cust
 - [Part 3 - Creating a helper](/magentofox/magento-2-basics-part-3-creating-a-helper/)
 - [Part 4 - Creating an observer](/magentofox/magento-2-basics-part-4-creating-an-observer/)
 - **Part 5 - Creating an admin page**
-- [Part 6 - Using Plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
+- [Part 6 - Using plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
 
 Adding sections to the admin area is in some ways very different to Magento 1. In this tutorial I'm not going to cover admin grids, instead I'm going to focus on creating a grid-less admin page and adding to the configuration.
 

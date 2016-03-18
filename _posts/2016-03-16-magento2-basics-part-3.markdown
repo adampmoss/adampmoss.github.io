@@ -14,7 +14,7 @@ We have finally arrived at part 3 of my mini-series on creating basic modules in
 - **Part 3 - Creating a helper**
 - [Part 4 - Creating an observer](/magentofox/magento-2-basics-part-4-creating-an-observer/)
 - [Part 5 - Creating an admin page](/magentofox/magento-2-basics-part-5-creating-an-admin-page/)
-- [Part 6 - Using Plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
+- [Part 6 - Using plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
 
 Helpers have the exact same use in Magento 2 as they do in 1. They are designed for features and functionality that are not specific to a model or block class. Let's begin by making our helper file:
 

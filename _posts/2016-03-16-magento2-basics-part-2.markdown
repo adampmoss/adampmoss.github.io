@@ -14,7 +14,7 @@ Welcome to part 2 of my mini-series on creating basic modules in Magento 2. In t
 - [Part 3 - Creating a helper](/magentofox/magento-2-basics-part-3-creating-a-helper/)
 - [Part 4 - Creating an observer](/magentofox/magento-2-basics-part-4-creating-an-observer/)
 - [Part 5 - Creating an admin page](/magentofox/magento-2-basics-part-5-creating-an-admin-page/)
-- [Part 6 - Using Plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
+- [Part 6 - Using plugins](/magentofox/magento-2-basics-part-6-using-plugins/)
 
 Let's get to it then, it's easier than a Sunday morning at Lionel Richie's house.
 
