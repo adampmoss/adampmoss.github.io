@@ -95,8 +95,8 @@ The second argument is always the value returned by the original method, we simp
 
 Our "around" method takes at least two arguments:
 
-1. $subject = The class being listened two
-2. $proceed = The next plugin or method in line based on sortOrder
+1. `$subject` The class being listened two
+2. `$proceed` The next plugin or method in line based on sortOrder
 3. The rest of the arguments based on the methods
 
 We then have the opportunity within our method to modify the arguments AND change the returned value. Let's go back to our breadcrumbs class:

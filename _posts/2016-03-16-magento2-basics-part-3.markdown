@@ -76,7 +76,7 @@ class Example extends Template
 
 Suddenly things look a little more complicated don't they? Don't panic though because what's going on here is actually pretty simple.
 
-We've declared a new class property **$_foxyHelper** to act as our access to the helper, and we have set this property in our construct by passing in the class path as an argument.
+We've declared a new class property `$_foxyHelper` to act as our access to the helper, and we have set this property in our construct by passing in the class path as an argument.
 
 What about the other argument "context"? Well, in order to use the template class's construct we have pass in a context as the parent constructor expects it. It basically tells Magento what type of object the class represents and what it's specific dependencies are. This is always needed when using a custom-built block class's constructor.
 

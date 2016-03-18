@@ -87,9 +87,12 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Patua One', 'Helvetica', cursive;
     font-weight: $base-font-weight;
-    color:$black-color;
+    color:$grey-color;
     a {
-        color:$black-color;
+        color:$grey-color;
+        &:hover {
+            color: $brand-color;
+        }
     }
 }
 
@@ -102,7 +105,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: $text-color;
+        color: lighten($brand-color, 15%);
         text-decoration:none;
     }
 }
@@ -133,10 +136,11 @@ blockquote {
 pre,
 code {
     color:$white-color;
+    font-weight:100;
     font-size: 15px;
-    border: 1px solid #272822;
+    border: 1px solid $grey-color;
     border-radius: 3px;
-    background-color: #272822;
+    background-color: $grey-color;
 }
 
 code {

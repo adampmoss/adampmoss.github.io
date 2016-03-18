@@ -109,11 +109,7 @@ class Example extends Template
 
 ### Step 4 - Create Magefox/Example/view/frontend/templates/magefox/example.phtml
 
-This is our template file that will render within the content block list as specified in our layout XML earlier. One difference to note is that $block rather than $this is used to access the class methods:
-
-{% highlight php %}
-<?php echo $block->getHello() ?>
-{% endhighlight %}
+This is our template file that will render within the content block list as specified in our layout XML earlier. One difference to note is that `$block` rather than `$this` is used to access the class methods, for example `$block->getHello()`
 
 That's all to this part. You should now have a working module with a frontend controller and a basic block with a template for displaying content.
 

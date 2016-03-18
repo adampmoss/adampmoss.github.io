@@ -57,9 +57,7 @@ class Fire implements ObserverInterface
 }
 {% endhighlight %}
 
-"Done" will now be echoed annoyingly at the top of the page when the event is dispatched. As with Magento 1 observer data can be accessed with:
-
-    $observer->getEvent()
+"Done" will now be echoed annoyingly at the top of the page when the event is dispatched. As with Magento 1 observer data can be accessed with `$observer->getEvent()`
 
 That's all folks!
 

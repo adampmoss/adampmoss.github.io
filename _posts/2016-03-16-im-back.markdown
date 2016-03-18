@@ -7,6 +7,13 @@ categories: magento
 author: Adam Moss
 ---
 
-Hi ya'll, how's things? I've been in the wilderness the last few years and have been itching to get back to blogging about all things Magento. 
+Hi ya'll, how's things? I've been in the wilderness the last few years and have been itching to get back to blogging about all things Magento. Allow me to welcome you back to the brand new Magento Fox Blog!
 
-As always you can find me on Twitter at [@magentofox](http://twitter.com/magentofox)
+As before there'll be posts about Magento 1, and now there'll be Magento 2 posts too. Other posts written by Adam Moss can be found on the Creare website's blog: [www.creare.co.uk/author/adam-moss](http://www.creare.co.uk/author/adam-moss)
+
+As always you can find both of us on Twitter at:
+
+- [@magentofox](http://twitter.com/magentofox)
+- [@adampmoss](http://twitter.com/adampmoss)
+
+Feel free to say hi, at least one of us doesn't bite!

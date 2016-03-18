@@ -5,6 +5,7 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     min-height: 70px;
+    background: linear-gradient($grey-color, darken($grey-color, 5%));
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -20,11 +21,15 @@
 .site-title {
     font-family: 'Patua One', 'Helvetica', cursive;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 70px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color:$black-color;
+    color:$white-color;
+
+    &:hover {
+            color: $brand-color;
+        }
 }
 
 .site-nav {
@@ -36,7 +41,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $white-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -47,10 +52,10 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 16px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $grey-color;
+        border: 1px solid lighten($grey-color, 10%);
         border-radius: 5px;
         text-align: right;
 
@@ -68,7 +73,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $white-color;
                 }
             }
         }
@@ -221,12 +226,12 @@
 }
 
 .post-title, .page-title {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 
@@ -234,10 +239,10 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 24px;
         }
     }
 
@@ -277,6 +282,23 @@
             path {
                 fill: $white-color;
             }
+        }
+    }
+}
+
+
+.icon--menu { 
+    > svg {
+        path {
+            fill: $white-color;
+        }
+    }
+}
+
+.icon--fox { 
+    > svg {
+        path {
+            fill: $brand-color;
         }
     }
 }

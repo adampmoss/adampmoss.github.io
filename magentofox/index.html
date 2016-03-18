@@ -2,13 +2,15 @@
 layout: default
 title: Magento Fox
 heading: Magento Fox Blog
+icon: icon-fox.svg
+class: fox
 ---
 
 <div class="home">
   <img src="/assets/magento-fox.png" alt="Magento Fox" class="magento-fox-pic" />
   <h1 class="page-heading page-title">{{ page.heading }}</h1>
-  <p>Welcome to the Magento Fox blog written by 3x Certified Magento developer Adam Moss, Technical Lead at <a href="http://www.space48.com" target="_blank">Space48</a> and formerly of Creare. I've been developing Magento websites since 2009 so I set up this blog to give something back to the community.</p>
-  <a target="_blank" href="https://twitter.com/magentofox" class="twitter-button"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span> Follow Magento Fox on Twitter</a>
+  <p>Welcome to the Magento Fox blog written by 3x Certified Magento developer Adam Moss, Technical Lead at Space48 and formerly of Creare. I've been developing Magento websites since 2009 so I set up this blog to give something back to the community.</p>
+  <a target="_blank" href="https://twitter.com/magentofox" class="twitter-button"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span> Follow Magento Fox</a>
   <ul class="post-list">
     {% for post in site.categories.magento %}
       <li>
