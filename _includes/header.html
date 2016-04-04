@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
+          {% if my_page.in_menu %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">
           {% if my_page.icon %}
             <span class="icon icon--menu icon--{{ my_page.class }}">{% include {{ my_page.icon }} %}</span>
