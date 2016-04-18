@@ -5,6 +5,7 @@ permalink: "/magentofox/magento-2-basics-part-1-setting-up-your-module/"
 date:   2016-03-16 10:00:00 +0000
 categories: magento2 magento
 author: Adam Moss
+comments: true
 ---
 
 In the following tutorials I'm going to take you through the very basics of creating a simple, local Magento 2 module. The series will cover the following topics:

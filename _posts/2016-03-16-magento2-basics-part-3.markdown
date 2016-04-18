@@ -5,6 +5,7 @@ permalink: "/magentofox/magento-2-basics-part-3-creating-a-helper/"
 date:   2016-03-16 12:00:00 +0000
 categories: magento2 magento
 author: Adam Moss
+comments: true
 ---
 
 We have finally arrived at part 3 of my mini-series on creating basic modules in Magento 2. This is a short one - how to create and utilise helpers in Magento 2.

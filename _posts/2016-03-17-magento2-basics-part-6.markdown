@@ -5,6 +5,7 @@ permalink: "/magentofox/magento-2-basics-part-6-using-plugins/"
 date:   2016-03-16 14:00:00 +0000
 categories: magento2 magento
 author: Adam Moss
+comments: true
 ---
 
 Plugins are a fantastic way of extending Magento 2 without the need for class rewrites by allowing you to modify the input and output of (most) methods belonging to the Magento 2 framework. For those familiar with Wordpress development the theory is similar to the action/hook format.

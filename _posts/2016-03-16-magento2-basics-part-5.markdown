@@ -5,6 +5,7 @@ permalink: "/magentofox/magento-2-basics-part-5-creating-an-admin-page/"
 date:   2016-03-16 14:00:00 +0000
 categories: magento2 magento
 author: Adam Moss
+comments: true
 ---
 
 Adding elements to the admin area is always a requirement when working with custom modules as you need to let your user content-manage and configure their functionality.
