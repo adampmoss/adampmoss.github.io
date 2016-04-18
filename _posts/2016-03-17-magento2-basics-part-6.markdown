@@ -95,7 +95,7 @@ The second argument is always the value returned by the original method, we simp
 
 Our "around" method takes at least two arguments:
 
-1. `$subject` The class being listened two
+1. `$subject` The class being listened to
 2. `$proceed` The next plugin or method in line based on sortOrder
 3. The rest of the arguments based on the methods
 
@@ -116,7 +116,7 @@ class BreadcrumbsPlugin
 
         $result = $proceed($crumbName, $crumbInfo);
 
-        /* I now that the opportunity to influence what is returned by our method. */
+        /* I now have the opportunity to influence what is returned by our method. */
 
         return $result;
     }
