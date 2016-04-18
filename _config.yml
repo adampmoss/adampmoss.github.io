@@ -21,3 +21,6 @@ gems: ['jekyll-paginate', 'jekyll-sitemap']
 # Pagination
 paginate: 10
 paginate_path: "/page/:num/"
+
+# Comments
+comments: true
