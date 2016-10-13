@@ -1,0 +1,26 @@
+---
+layout: default
+title: Adam's Vegan Blog
+heading: Adam's Vegan Blog
+icon: icon-vegan.svg
+excerpt: Adam Moss's vegan opinion blog
+class: vegan
+in_menu: no
+nav: Vegan
+---
+
+<div class="home">
+  <h1 class="page-heading page-title">{{ page.heading }}</h1>
+  <ul class="post-list">
+    {% for post in site.categories.vegan %}
+      <li>
+        <h2 class="post-list-heading">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">Posted on {{ post.date | date: "%-d %B, %Y" }}</span>
+      <p class="article__excerpt">{{ post.excerpt }}</p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read Post</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
