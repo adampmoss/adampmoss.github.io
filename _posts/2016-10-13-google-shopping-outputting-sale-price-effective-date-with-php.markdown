@@ -18,9 +18,7 @@ Ultimately, Google wants something like this:
 
 As a Magento user I'll show you the fucntion I used to get to this hideous string of data. I've stripped it down slightly for simplicity.
 
-````
-<?php 
-
+{% highlight php %}
 public function getSalePriceEffectiveDate($product)
     {
         // return if no sale price
@@ -48,7 +46,7 @@ public function getSalePriceEffectiveDate($product)
 
         return false;
     }
-````
+{% endhighlight %}
 
 The key part here is how each date is formatted based on Google's requirements:
 
