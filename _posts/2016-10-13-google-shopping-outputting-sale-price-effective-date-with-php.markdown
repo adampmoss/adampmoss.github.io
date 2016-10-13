@@ -19,6 +19,8 @@ Ultimately, Google wants something like this:
 As a Magento user I'll show you the fucntion I used to get to this hideous string of data. I've stripped it down slightly for simplicity.
 
 ````
+<?php 
+
 public function getSalePriceEffectiveDate($product)
     {
         // return if no sale price
