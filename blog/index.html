@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Adam's Vegan Blog
-heading: Adam's Vegan Blog
+title: Adam's Blog
+heading: Adam's Blog
 icon: icon-vegan.svg
-excerpt: Adam Moss's vegan opinion blog
-class: vegan
+excerpt: The personal online blog of Adam Moss
+class: blog
 in_menu: yes
-nav: Vegan Blog
+nav: Blog
 ---
 
 <div class="home">
   <h1 class="page-heading page-title">{{ page.heading }}</h1>
-  <p>Welcome to my personal blog!!! As someone with a huge interest in health and fitness (and a desire to dump my thoughts somewhere) I created this blog. Posts are my thoughts and opinions only!</p>
+  <p>Welcome to my personal blog!!! As a vegan guy with a huge interest in health and fitness (and a desire to dump my thoughts somewhere) I created this blog, separate to Mr Magento Fox. Posts are my thoughts and opinions only!</p>
   <ul class="post-list">
-    {% for post in site.categories.vegan %}
+    {% for post in site.categories.blog %}
       <li>
         <h2 class="post-list-heading">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
