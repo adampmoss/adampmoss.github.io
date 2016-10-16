@@ -9,29 +9,31 @@ comments: true
 body_class: blog
 ---
 
-I decided to write this post because I'd like to tell you of how I went from being a seasoned half marathon runner to running a full marathon in the space of 5 weeks. I'm in no way offering this as training advice or anything like that, but my story may offer some insight into what to expect if you're as imaptient as me.
+I decided to write this post because I wanted to describe how I went from being a seasoned half marathon runner to running a full marathon in the space of 5 weeks. Just for the record... I'm in no way offering this as "training advice" or anything like that as I'm not qualfied to do so, but my story may offer some insight into what to expect if you're as imaptient as me.
 
-A tiny bit of background... I've been running half marathons since 2012 and at the time of writing have ran 8 half marathon events across the UK with an average time around the 1:42 mark.
+A tiny bit of background... I've been running half marathons since 2012 and at the time of writing have ran 8 half marathon events across the UK with an average time around the 1:42 mark. I find them reltively easy and really enjoyable.
 
-I go in and out of running phases, it's not something I do all-year round, but I'll do it for a few months at a time until I get a bit bored or complete a particular goal.
+I'm the kind of person who goes in and out of running phases. It's not something I do all-year round, but I'll do it for a few months at a time until I get a bit bored or complete a particular goal such as a race event. I guess you could call me a part-time distance runner.
 
-So anyway, I got back into running after starting my new job as I found myself with a lot of spare time in the evenings, and I was completing 5-8 mile runs most nights. I woke up one morning suddenly really motivated to finally complete a marathon. I can't explain exactly why, but I just knew it was something I needed to do, and guess what, I didn't wanna hang around!
+So anyway, I got back into running after starting my new job as I found myself with a lot of spare time on my own in the evenings, and I was completing 5-8 mile runs most nights. Out of nowhere I got the buzz back for running and I suddenly wanted... no, *needed* to do a full marathon.
 
 ### The Pre-Run
 
-I scoured the Internet for upcoming marathons and the smart thing to do would be to have found one in the autumn period, thus giving me ample training time to prepare. Instead I wanted to run the Rock n' Roll Liverpool marathon, which was a mere 6 weeks away...
+I browsed the Internet for upcoming marathons and the smart thing to do would have been to find one in the autumn period, giving me ample time to train and prepare. I realised however that waiting too long is not something I can do - I would surely lose interest if the race wasn't for another 5-6 months.
 
-Before booking anything I decided to do a 20-mile personal run to see if I had what it takes to do those kinds of distances, so I set out one freezing cold Sunday morning and ran 4 (and a bit) laps around Draycote Water. I figured that if I can complete 20 miles on my own I will be able to determine whether I'd have enough left in the tank to complete the last 6.2 miles.
+SOnce I discovered the Rock n' Roll Liverpool marathon I knew that was the one. The location, the time of year, the cool branding. The only issue was that it was only 6 weeks away...
 
-Just for the record, running around a 5 mile reservoir 4 times is boring as hell. There's literally nothing new to look at so your mind becomes very chaotic as you attempt to keep yourself entertained & focussed.
+Before booking anything I decided to do a 20-mile personal run to see if I had what it takes to even get close to that kind of distance, so I set out one freezing cold Sunday morning and ran 4 (and a bit) laps around a local reservoir called Draycote Water. I figured that if I can complete 20 miles on my own I will be able to determine whether I'd have had enough left in the tank to complete the last 6.2 miles.
+
+It must be said that, while it's a decent, flat-ish route, running around a 5 mile reservoir 4 times is boring as hell.
 
 ![Draycote Water Run](/assets/posts/draycote.png)
 
-I completed the run and felt confident enough in my own ability that I could complete the 26.2 miles, particularly in a race day environment reaching fever-pitch, so I booked Liverpool.
+I completed the run and felt confident enough in my own ability that I could complete the 26.2 miles, particularly in a race day environment reaching fever-pitch, so I booked Liverpool RnR.
 
 ### The Training
 
-In the 5 weeks that I gave myself to prepare for this event I can honestly say that I didn't really make the most of the time I had. I trained, but I didn't train as much as I should have. Let's face it, no amount of training was really going to be enough in the timeframe I allowed myself.
+In the 5 weeks that I gave myself to prepare for this event I can honestly say that I didn't really make the most of the time I had. I trained, but I didn't train as much as I should have. Let's face it, no amount of training was really going to be enough in the timeframe I allowed myself, but I still found myself not quite making the most of the time I had available.
 
 #### Week 1
 - Sunday: 5.85 miles
@@ -53,7 +55,7 @@ In the 5 weeks that I gave myself to prepare for this event I can honestly say t
 - Monday: 10.92 miles
 - Sunday: Race Day!
 
-Not exactly comprehensive eh? I was doing other training around this such as my normal gym exercises and a long-distance cycle, but looking back this was very relaxed preparation. The only run of any note when it comes to serious distance was that 21 miler I did before booking. Most marathon training schedules will see you achieve several 18+ mile in order train your legs (and mind) for the demands that a marathon puts on your body.
+Not exactly comprehensive eh? I was doing other training around this such as my normal gym exercises and a long-distance cycle, but looking back this was very relaxed preparation. The only run of any note when it comes to serious distance was that 21 miler I did before booking the event at all. Most marathon training schedules will see you achieve several 18+ mile in order train your legs (and mind) for the demands that a marathon puts on your body.
 
 Despite all this, race day came along and I went into the race full of confidence and determination. Nothing was going to stop me.
 
