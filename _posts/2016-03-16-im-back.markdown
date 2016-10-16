@@ -6,6 +6,7 @@ date:   2016-03-14 18:17:27 +0000
 categories: magento
 author: Adam Moss
 comments: true
+body_class: magento-fox
 ---
 
 Hi ya'll, how's things? I've been in the wilderness the last few years and have been itching to get back to blogging about all things Magento. Allow me to welcome you back to the brand new Magento Fox Blog!

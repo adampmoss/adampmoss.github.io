@@ -19,7 +19,7 @@
 }
 
 .site-title {
-    font-family: 'Patua One', 'Helvetica', cursive;
+    font-family: $alt-font-family;
     font-size: 26px;
     font-weight: 100;
     line-height: 70px;
@@ -106,7 +106,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     text-align:center;
 }
@@ -263,14 +262,48 @@
     }
 }
 
-/* Magento Fox */
+/* Homepage */
 
-.magento-fox-pic {
+.blog-link {
+    background-color: $white-color;
+    color: $grey-color;
+    text-align: center;
+    font-size: $large-font-size;
+    padding: 5% 0;
+    @include col();
+
+    img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &.magentofox-link {
+    }
+
+    &.adam-link {
+    }
+}
+
+.social-link {
+    display: inline-block;
+    height: 34px;
+
+    img {
+        height: 34px;
+    }
+}
+
+.title-pic {
         display:block;
         float:right;
         max-height:200px;
     @include media-query($on-palm) {
         display:none;
+    }
+
+    &.left-margin {
+        margin-left: 15px;
     }
 }
 
@@ -287,7 +320,7 @@
 }
 
 
-.icon--menu { 
+.icon--menu {
     > svg {
         path {
             fill: $white-color;
@@ -295,7 +328,7 @@
     }
 }
 
-.icon--fox { 
+.icon--fox {
     > svg {
         path {
             fill: $brand-color;
@@ -308,34 +341,37 @@
   text-align: center;
 }
 
-  .pag__btn {
-    height: calc(var(--lh) * 1.5);
-    padding: 0 var(--lh);
-    color: #b1b1b1;
-    line-height: calc(var(--lh) * 1.5);
-    box-shadow: inset 0 0 0 1px var(--color-border);
+.pag__btn {
+height: calc(var(--lh) * 1.5);
+padding: 0 var(--lh);
+color: #b1b1b1;
+line-height: calc(var(--lh) * 1.5);
+box-shadow: inset 0 0 0 1px var(--color-border);
 
 
-    &--prev {
-      float: left;
-    }
+&--prev {
+  float: left;
+}
 
-    &--next {
-      float: right;
-    }
+&--next {
+  float: right;
+}
 
-    &:hover {
-      color: var(--color1);
-      text-decoration: none;
-      box-shadow: inset 0 0 0 1px var(--color1);
-    }
-  }
+&:hover {
+  color: var(--color1);
+  text-decoration: none;
+  box-shadow: inset 0 0 0 1px var(--color1);
+}
+}
 
-  .pag__now {
-    display: inline;
-    color: #b1b1b1;
-    font-size: var(--h5);
-    line-height: calc(var(--lh) * 1.5);
-    vertical-align: top;
-  }
+.pag__now {
+display: inline;
+color: #b1b1b1;
+font-size: var(--h5);
+line-height: calc(var(--lh) * 1.5);
+vertical-align: top;
+}
 
+.centre {
+    text-align: center
+}

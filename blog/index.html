@@ -1,17 +1,24 @@
 ---
 layout: default
 title: Adam's Blog
-heading: Adam's Blog
+heading: My Blog
 icon: icon-vegan.svg
 excerpt: The personal online blog of Adam Moss
 class: blog
 in_menu: yes
-nav: Blog
+nav: My Blog
+body_class: blog
 ---
 
 <div class="home">
+
+  <img src="/assets/adam.png" alt="Adam Moss" class="title-pic left-margin" />
   <h1 class="page-heading page-title">{{ page.heading }}</h1>
-  <p>Welcome to my personal blog!!! As a vegan guy with a huge interest in health and fitness (and a desire to dump my thoughts somewhere) I created this blog, separate to Mr Magento Fox. Posts are my thoughts and opinions only!</p>
+  <p>Hi and thanks for checking out my blog! When I'm not working with Magento I actually have a load of other interests of which I'll be dumping my thoughts (and mine alone) here. You can find me across the websphere:</p>
+  <a href="https://github.com/adampmoss" target="_blank" class="social-link"><img src="/assets/github.svg" alt="Github" /></a>
+  <a href="https://500px.com/adampmoss" target="_blank" class="social-link"><img src="/assets/500px.svg" alt="500px" /></a>
+  <a href="https://twitter.com/adampmoss" target="_blank" class="social-link"><img src="/assets/twitter.svg" alt="Twitter" /></a>
+<p><br /><br /></p>
   <ul class="post-list">
     {% for post in site.categories.blog %}
       <li>
@@ -24,4 +31,7 @@ nav: Blog
       </li>
     {% endfor %}
   </ul>
+  {% if site.categories.blog == null %}
+  <p>No posts yet!</p>
+  {% endif %}
 </div>

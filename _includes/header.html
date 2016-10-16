@@ -3,7 +3,8 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <a href="https://www.magentocommerce.com/certification/directory/dev/3136/" target="_blank"><img src="/assets/certifications.png" class="certifications" /></a>
+    {% if page.body_class == "magento-fox" %}
+    <a href="https://www.magentocommerce.com/certification/directory/dev/3136/" target="_blank"><img src="/assets/certifications.png" class="certifications" /></a>{% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -15,7 +16,6 @@
       </a>
 
       <div class="trigger">
-      <a class="page-link" target="_blank" href="https://500px.com/adampmoss">Photos</a>
         {% for my_page in site.pages %}
           {% if my_page.in_menu %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">

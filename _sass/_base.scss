@@ -194,8 +194,12 @@ pre {
     }
 }
 
-.button {
+.magento-fox .button {
     @include button($brand-color);
+}
+
+.blog .button {
+    @include button($adam-color);
 }
 
 
