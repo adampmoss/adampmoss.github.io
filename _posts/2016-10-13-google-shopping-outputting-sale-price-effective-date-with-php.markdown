@@ -40,14 +40,19 @@ public function getSalePriceEffectiveDate($product)
 
         if ($saleToTimeString) {
 
-            $from = date("Y-m-d\TH:iO", $saleFromTimeString);
-            $to = date("Y-m-d\TH:iO", $saleToTimeString);
+            $from = $this->googleDate($saleFromTimeString);
+            $to = $this->googleDate($saleToTimeString);
 
             return $from."/".$to;
         }
 
         return false;
     }
+
+public function googleDate($timeString)
+{
+    return date("Y-m-d\TH:iO", $timeString);
+}
 {% endhighlight %}
 
 The key part here is how each date is formatted based on Google's requirements:
