@@ -73,7 +73,7 @@ Perhaps with better preparation those miles would have been less painful, but in
 
 ### Afterthoughts
 
-It was 100% the right decision for me to have done what I did. In two days time I was recovered and back to playing football with a great experience under my belt. 
+It was 100% the right decision for me to have done what I did. In two days time I was recovered and back to playing football with a great experience under my belt. Not completing the race was never an option for me. Rightly or wrongly I would've dragged myself over the finish line if I had to. Luckily it never came to that!
 
 So why am I telling you all this? Well, I wanted to write this so that other people who are wanting to upgrade to a full marathon can take something out of my experience. 
 
