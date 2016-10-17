@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Google Shopping - Outputting Sale Price Effective Date with PHP"
-permalink: "/magentofox/google-shopping-outputting-sale-price-effective-date-with-phpe/"
+permalink: "/magentofox/google-shopping-outputting-sale-price-effective-date-with-php/"
 date:   2016-10-13 20:00:00 +0000
 categories: magento google-shopping
 author: Adam Moss
