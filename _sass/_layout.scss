@@ -270,12 +270,18 @@
     text-align: center;
     font-size: $large-font-size;
     padding: 5% 0;
+    border: 1px solid $white-color;
     @include col();
 
     img {
         width: 50%;
         display: block;
         margin: 0 auto;
+    }
+
+    &:hover {
+        border-color: $grey-color-light;
+        color: $grey-color;
     }
 
     &.magentofox-link {
@@ -374,4 +380,8 @@ vertical-align: top;
 
 .centre {
     text-align: center
+}
+
+.img-circle {
+    border-radius: 50%;
 }
