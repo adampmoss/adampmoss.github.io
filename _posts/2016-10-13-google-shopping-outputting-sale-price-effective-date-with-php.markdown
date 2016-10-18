@@ -17,7 +17,7 @@ Ultimately, Google wants something like this:
 
     2011-03-01T16:00-0800/2011-03-03T16:00-0800
 
-As a Magento user I'll show you the fucntion I used to get to this hideous string of data. I've stripped it down slightly for simplicity.
+As a Magento user I'll show you the function I used to get to this hideous string of data. I've stripped it down slightly for simplicity.
 
 {% highlight php %}
 <?php

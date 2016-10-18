@@ -9,9 +9,9 @@ comments: true
 body_class: blog
 ---
 
-I decided to write this post because I wanted to describe how I went from being a seasoned half marathon runner to running a full marathon in the space of 5 weeks. Just for the record... I'm in no way offering this as "training advice" or anything like that as I'm not qualfied to do so, but my story may offer some insight into what to expect if you're as imaptient as me.
+I decided to write this post because I wanted to describe how I went from being a seasoned half marathon runner to running a full marathon in the space of 5 weeks. Just for the record... I'm in no way offering this as "training advice" or anything like that as I'm not qualified to do so, but my story may offer some insight into what to expect if you're as impatient as me.
 
-A tiny bit of background... I've been running half marathons since 2012 and at the time of writing have ran 8 half marathon events across the UK with an average time around the 1:42 mark. I find them reltively easy and really enjoyable.
+A tiny bit of background... I've been running half marathons since 2012 and at the time of writing have ran 8 half marathon events across the UK with an average time around the 1:42 mark. I find them relatively easy and really enjoyable.
 
 I'm the kind of person who goes in and out of running phases. It's not something I do all-year round, but I'll do it for a few months at a time until I get a bit bored or complete a particular goal such as a race event. I guess you could call me a part-time distance runner.
 
@@ -65,9 +65,9 @@ Sunday May 29th 2016 was a beautiful day, the sun was shining and the temperatur
 
 ![Marathon Results](/assets/posts/results.png)
 
-I came out of the run injury-free but with very sore joints. The last 7 miles were particularly painful on my ankles, hips and knee joints even though my muscles didn't seem to be too tired as I was abe to pick up the pace towards the end.
+I came out of the run injury-free but with very sore joints. The last 7 miles were particularly painful on my ankles, hips and knee joints even though my muscles didn't seem to be too tired as I was able to pick up the pace towards the end.
 
-In terms of difficulty I would say it is probably 3x more difficult than a half marathon. Not only is the physical impact deeper and more prolonged, but keeping the mind engaged and focussed for 4 hours was very difficult. Towards the last few miles you stop being able to enjoy the views and the atmosphere as every thought turns to whatever is hurting most on your body and "when can I stop running?".
+In terms of difficulty I would say it is probably 3x more difficult than a half marathon. Not only is the physical impact deeper and more prolonged, but keeping the mind engaged and focused for 4 hours was very difficult. Towards the last few miles you stop being able to enjoy the views and the atmosphere as every thought turns to whatever is hurting most on your body and "when can I stop running?".
 
 Perhaps with better preparation those miles would have been less painful, but in the end I was never in dire straits. I didn't have to stop and walk (though I did have to stop for a piss 4 times!) and I kept a consistent pace throughout. Taking everything into account I really couldn't have ran it any better, and the race as a whole, I absolutely loved it. 
 
