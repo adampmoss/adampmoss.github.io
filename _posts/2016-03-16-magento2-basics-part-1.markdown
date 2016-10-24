@@ -7,6 +7,7 @@ categories: magento2 magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 5 mins
 ---
 
 In the following tutorials I'm going to take you through the very basics of creating a simple, local Magento 2 module. The series will cover the following topics:

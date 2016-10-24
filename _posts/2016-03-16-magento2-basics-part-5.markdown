@@ -7,6 +7,7 @@ categories: magento2 magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 15 mins
 ---
 
 Adding elements to the admin area is always a requirement when working with custom modules as you need to let your user content-manage and configure their functionality.

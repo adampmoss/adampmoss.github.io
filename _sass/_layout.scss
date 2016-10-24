@@ -203,6 +203,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    margin-bottom: 0;
 }
 
 .post-link {
@@ -222,6 +223,18 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+}
+
+.inline-icon {
+    height: 25px;
+    margin-top: -4px
+}
+
+.reading-time {
+    font-family: 'Patua One', 'Helvetica', cursive;
+    display: inline-block;
+    line-height: 25px;
+    margin: 0 0 0 5px;
 }
 
 .post-title, .page-title {

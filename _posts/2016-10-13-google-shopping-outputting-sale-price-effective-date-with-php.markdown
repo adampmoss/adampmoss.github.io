@@ -7,6 +7,7 @@ categories: magento google-shopping
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 5 mins
 ---
 
 In a recent project I was building a good ol' fashioned Google Shopping feed, something I've done more times than I've had hot dinners, except this time I encountered a new attribute called _sale_price_effective_date_

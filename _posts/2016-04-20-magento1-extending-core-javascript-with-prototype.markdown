@@ -7,6 +7,7 @@ categories: magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 10 mins
 ---
 
 The Majority of Magento 1's JavaScript is written in the widely disliked, DOM-extending, Prototype.js framework. Launched in 2005, Prototype has been around for a long-ass time and is now struggling to maintain relevance in the face of modern, package-based frameworks like React.js.

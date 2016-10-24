@@ -12,7 +12,8 @@ layout: default
   {% when '3' or '23' %}{{ d }}rd
   {% else %}{{ d }}th
   {% endcase %}{{ page.date | date: "%B" }},
-{{ page.date | date: "%Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+{{ page.date | date: "%Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.reading-time %}</p>
+<img src="/assets/open-book.svg" class="inline-icon" /> <span class="reading-time">{{ page.reading-time }}</span>{% endif %}
   </header>
 
   <div class="post-content" itemprop="articleBody">

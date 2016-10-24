@@ -7,6 +7,7 @@ categories: magento2 magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 8 mins
 ---
 
 Part 4 is another pretty straighforward section, how to add an event observer in Magento 2. Yes event-dispatch is still present in Magento even with the introduction of plugins (which I'll come onto at some point).

@@ -7,6 +7,7 @@ categories: magento2 magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
+reading-time: 6 mins
 ---
 
 We have finally arrived at part 3 of my mini-series on creating basic modules in Magento 2. This is a short one - how to create and utilise helpers in Magento 2.
