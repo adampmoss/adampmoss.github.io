@@ -8,6 +8,7 @@ author: Adam Moss
 comments: true
 body_class: magento-fox
 reading-time: 5 mins
+photo: "magento-fox.png"
 ---
 
 I'm gonna try and get straight to the point with the post because this actually quite an old problem! However, it recently came to my attention just how un-documented my eventual solution was.
