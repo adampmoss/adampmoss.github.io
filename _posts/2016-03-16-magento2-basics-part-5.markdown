@@ -8,7 +8,7 @@ author: Adam Moss
 comments: true
 body_class: magento-fox
 reading-time: 10 mins
-photo: "/assets/featured/magento-fox.png"
+photo: "magento-fox.png"
 ---
 
 Adding elements to the admin area is always a requirement when working with custom modules as you need to let your user content-manage and configure their functionality.
