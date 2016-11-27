@@ -7,7 +7,7 @@ categories: magento creareseo
 author: Adam Moss
 comments: true
 body_class: magento-fox
-reading-time: 3 mins
+reading-time: 5 mins
 photo: "magento-fox.png"
 ---
 

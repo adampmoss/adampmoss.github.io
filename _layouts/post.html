@@ -13,6 +13,7 @@ layout: default
   {% else %}{{ d }}th
   {% endcase %}{{ page.date | date: "%B" }},
 {{ page.date | date: "%Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}{% if page.reading-time %}</p>
+{% include share.html %}
 <img src="/assets/open-book.svg" class="inline-icon" /> <span class="reading-time">{{ page.reading-time }}</span>{% endif %}
   </header>
 
@@ -24,6 +25,8 @@ layout: default
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
+function newWindow(a,b,c,d,e){if(!b)var b="CALCULATOR";if(!c)var c="menubar=0,toolbar=0,resizable=0,location=0,status=0,scrollbars=0";if(d)f=d;else var f=620;if(e)g=e;else var g=400;var h=100;y=100;var i="width="+f+",height="+g+","+c+",screenx="+h+",screeny="+y+",left="+h+",top="+y;window.open(a,b,i)}
+
 /**
 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
