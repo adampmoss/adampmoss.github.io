@@ -8,6 +8,7 @@ author: Adam Moss
 comments: true
 body_class: magento-fox
 photo: "magento-fox.png"
+reading-time: 15 mins
 ---
 
 **S.O.L.I.D** is a coding standard that all PHP developers should be familiar with when undertaking Magento module development. It was introduced over a decade ago by Robert C Martin (Uncle Bob) and is used across the object-oriented design spectrum. Why use these principles I hear you ask? When applied properly it makes your code more extendable, logical and easier to read.
