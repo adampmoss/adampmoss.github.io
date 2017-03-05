@@ -8,7 +8,6 @@ author: Adam Moss
 comments: true
 body_class: magento-fox
 reading-time: 5 mins
-photo: "magento-fox.png"
 ---
 
 It's fair to say that CreareSEO has been left on the shelf for quite some time due to change of ownership and other commitments. I was able to dedicate some time to make some important updates over the last month so I'm happy to announce version 1.5 is now available on GitHub: [CreareSEO 1.5](https://github.com/adampmoss/CreareSEO/releases/tag/1.5)

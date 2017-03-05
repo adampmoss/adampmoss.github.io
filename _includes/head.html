@@ -13,7 +13,7 @@
   <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}">
   <link rel="author" href="https://plus.google.com/+AdamMoss1/"/>
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
-  <meta property="og:image" content="{% if page.photo %}{{ site.url }}/assets/featured/{{ page.photo }}{% else %}{{ "/assets/logo.png" | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.photo %}{{ site.url }}{{ page.photo }}{% else %}{{ site.default_img | prepend: site.url }}{% endif %}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -21,7 +21,7 @@
   <meta name="twitter:creator" content="@adampmoss" />
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}" />
-  <meta property="og:image" content="{% if page.photo %}{{ site.url }}/assets/featured/{{ page.photo }}{% else %}{{ "/assets/logo.png" | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.photo %}{{ site.url }}{{ page.photo }}{% else %}{{ site.default_img | prepend: site.url }}{% endif %}">
 
   <!-- Standard Stuff -->
   <link rel="canonical" href="{% if page.title %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">

@@ -17,7 +17,23 @@ layout: default
 {% if page.reading-time %}
 <img src="/assets/open-book.svg" class="inline-icon" /> <span class="reading-time">{{ page.reading-time }}</span>{% endif %}
   </header>
-
+  <div itemprop="publisher" class="hide" itemscope itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="Adam Moss">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+    <img src="{{ site.secure_url }}{{ site.default_img }}"/>
+    <meta itemprop="url" content="{{ site.secure_url }}{{ site.default_img }}">
+    <meta itemprop="width" content="400">
+    <meta itemprop="height" content="400">
+    </div>
+  </div>
+  {% if page.photo %}
+  <div itemprop="image" class="hide" itemscope itemtype="https://schema.org/ImageObject">
+    <img src="{{ site.secure_url }}{{ page.photo }}"/>
+    <meta itemprop="url" content="{{ site.secure_url }}{{ page.photo }}">
+    <meta itemprop="width" content="400">
+    <meta itemprop="height" content="400">
+  </div>
+  {% endif %}
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>

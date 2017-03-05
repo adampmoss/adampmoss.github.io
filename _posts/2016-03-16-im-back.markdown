@@ -7,7 +7,6 @@ categories: magento
 author: Adam Moss
 comments: true
 body_class: magento-fox
-photo: "magento-fox.png"
 reading-time: 1 min
 ---
 

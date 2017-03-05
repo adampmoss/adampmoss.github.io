@@ -8,7 +8,6 @@ author: Adam Moss
 comments: true
 body_class: magento-fox
 reading-time: 8 mins
-photo: "magento-fox.png"
 ---
 
 Welcome to part 2 of my mini-series on creating basic modules in Magento 2. In this part I'll show you how to create a simple front controller and output some content.

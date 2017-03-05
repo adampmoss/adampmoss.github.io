@@ -8,6 +8,7 @@ author: Adam Moss
 comments: true
 body_class: blog
 reading-time: 10 mins
+photo: "/assets/posts/featured-run.png"
 ---
 
 I decided to write this post because I wanted to describe how I went from being a seasoned half marathon runner to running a full marathon in the space of 5 weeks. Just for the record... I'm in no way offering this as "training advice" or anything like that as I'm not qualified to do so, but my story may offer some insight into what to expect if you're as impatient as me.
