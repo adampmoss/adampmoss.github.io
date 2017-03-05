@@ -27,10 +27,87 @@
   <link rel="canonical" href="{% if page.title %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
+  <style type="text/css">
+    /** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 15px; }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Figures */
+figure > img { display: block; }
+
+figcaption { font-size: 14px; }
+
+/** Lists */
+ul, ol { margin-left: 30px; }
+
+li > ul, li > ol { margin-bottom: 0; }
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 900; letter-spacing: -2px; color: #000000; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #000000; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { color: #333333; }
+
+/** Links */
+a { color: #00A2D3; text-decoration: none; }
+a:hover { color: #21cbff; text-decoration: none; }
+
+/** Blockquotes */
+blockquote { color: #000000; border-left: 4px solid #000000; padding-left: 15px; font-size: 24px; font-weight: 200; font-style: italic; }
+blockquote > :last-child { margin-bottom: 0; }
+
+/** Code formatting */
+pre, code { color: #FFFFFF; font-weight: 100; font-size: 15px; border: 1px solid #413f44; border-radius: 3px; background-color: #413f44; }
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+/** Wrapper */
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+/** Clearfix */
+.wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }
+
+.magento-fox .button { background: #CD003A; color: #FFFFFF; padding: 7px 13px; border-radius: 3px; display: inline-block; }
+.magento-fox .button:hover { background: #e70041; color: #FFFFFF; }
+
+.blog .button { background: #CD003A; color: #FFFFFF; padding: 7px 13px; border-radius: 3px; display: inline-block; }
+.blog .button:hover { background: #e70041; color: #FFFFFF; }
+
+/** Icons */
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #413f44; }
+
+/** Site header */
+.site-header { min-height: 70px; background: #00A2D3; position: relative; }
+
+.certifications { height: 40px; max-height: 40px; margin-left: 10px; margin-top: -10px; }
+
+.site-title { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 26px; line-height: 70px; letter-spacing: -2px; margin-bottom: 0; text-transform: uppercase; color: #FFFFFF; font-weight: 900; }
+.site-title:hover { color: #00546d; }
+
+.site-nav { float: right; line-height: 70px; }
+.site-nav .menu-icon { display: none; }
+.site-nav .page-link { color: #FFFFFF; line-height: 1.5; }
+.site-nav .page-link:hover { color: #00546d; }
+.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+@media screen and (max-width: 600px) { .site-nav { position: absolute; top: 16px; right: 15px; background-color: #00A2D3; border: 1px solid #07c5ff; border-radius: 5px; text-align: right; }
+  .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
+  .site-nav .menu-icon > svg { width: 18px; height: 15px; }
+  .site-nav .menu-icon > svg path { fill: #FFFFFF; }
+  .site-nav .trigger { clear: both; display: none; }
+  .site-nav:hover .trigger { display: block; padding-bottom: 5px; }
+  .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
+  .site-nav .page-link:not(:last-child) { margin-right: 0; } }
+  </style>
+
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link  rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
