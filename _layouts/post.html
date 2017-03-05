@@ -26,14 +26,14 @@ layout: default
     <meta itemprop="height" content="400">
     </div>
   </div>
-  {% if page.photo %}
+
   <div itemprop="image" class="hide" itemscope itemtype="https://schema.org/ImageObject">
-    <img src="{{ site.secure_url }}{{ page.photo }}"/>
-    <meta itemprop="url" content="{{ site.secure_url }}{{ page.photo }}">
+    <img src="{% if page.photo %}{{ site.secure_url }}{{ page.photo }}{% else %}{{ site.secure_url }}{{ site.default_img }}{% endif %}"/>
+    <meta itemprop="url" content="{% if page.photo %}{{ site.secure_url }}{{ page.photo }}{% else %}{{ site.secure_url }}{{ site.default_img }}{% endif %}">
     <meta itemprop="width" content="400">
     <meta itemprop="height" content="400">
   </div>
-  {% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
