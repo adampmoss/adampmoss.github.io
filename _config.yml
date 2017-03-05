@@ -17,4 +17,5 @@ description: "The personal blog of Adam Moss, including detailed Magento 1 & 2 p
 # Build settings
 markdown: kramdown
 
-gems: [jekyll-sitemap']
+gems:
+  - jekyll-sitemap
