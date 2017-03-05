@@ -28,7 +28,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <style type="text/css">
-    /** Reset some basic elements */
+/** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; word-wrap: break-word; /* IE 5+ */ }
 
 /** Basic styling */
@@ -110,6 +110,26 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
   .site-nav .page-link { display: block; padding: 5px 10px; margin-left: 20px; }
   .site-nav .page-link:not(:last-child) { margin-right: 0; } }
 
+/** Site footer */
+.site-footer { padding: 30px 0; text-align: center; }
+
+.footer-heading { font-size: 18px; margin-bottom: 15px; }
+
+.contact-list, .social-media-list { list-style: none; margin-left: 0; }
+
+.footer-col-wrapper { font-size: 15px; color: #413f44; margin-left: -15px; }
+
+.footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
+
+.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+
+.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
+
+.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
+
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); }
+  .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
 /** Page content */
 .page-content { padding: 70px 0; }
 
@@ -169,6 +189,15 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon--menu > svg path { fill: #FFFFFF; }
 
 .icon--fox > svg path { fill: #CD003A; }
+
+.pag { padding-top: calc(var(--lh) / 2); text-align: center; }
+
+.pag__btn { height: calc(var(--lh) * 1.5); padding: 0 var(--lh); color: #b1b1b1; line-height: calc(var(--lh) * 1.5); box-shadow: inset 0 0 0 1px var(--color-border); }
+.pag__btn--prev { float: left; }
+.pag__btn--next { float: right; }
+.pag__btn:hover { color: var(--color1); text-decoration: none; box-shadow: inset 0 0 0 1px var(--color1); }
+
+.pag__now { display: inline; color: #b1b1b1; font-size: var(--h5); line-height: calc(var(--lh) * 1.5); vertical-align: top; }
 
 .centre { text-align: center; }
 
