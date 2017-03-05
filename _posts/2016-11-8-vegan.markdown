@@ -2,7 +2,7 @@
 layout: post
 title:  "Vegan"
 permalink: "/blog/vegan/"
-date:   2016-11-6 13:00:00 +0000
+date:   3016-11-6 13:00:00 +0000
 categories: blog
 author: Adam Moss
 comments: true
