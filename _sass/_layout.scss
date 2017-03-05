@@ -3,12 +3,19 @@
  */
 
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
     min-height: 70px;
-    background: linear-gradient($grey-color, darken($grey-color, 5%));
+    background: $shade4;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+.magento-fox {
+
+}
+
+.blog {
+
 }
 
 .certifications {
@@ -21,14 +28,15 @@
 .site-title {
     font-family: $alt-font-family;
     font-size: 26px;
-    font-weight: 100;
     line-height: 70px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     margin-bottom: 0;
+    text-transform: uppercase;
     color:$white-color;
+    font-weight: 900;
 
     &:hover {
-            color: $brand-color;
+            color: darken($shade4, 20%);
         }
 }
 
@@ -43,6 +51,10 @@
     .page-link {
         color: $white-color;
         line-height: $base-line-height;
+
+        &:hover {
+            color: darken($shade4, 20%);
+        }
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -201,9 +213,9 @@
 }
 
 .post-meta {
+    color: $black-color;
     font-family: $alt-font-family;
     font-size: $small-font-size;
-    color: $grey-color;
     margin-bottom: 0;
     font-weight: bold;
 }
@@ -247,16 +259,15 @@
 
 
 .reading-time {
-    font-family: 'Patua One', 'Helvetica', cursive;
     display: inline-block;
     line-height: 25px;
     margin: 0 0 0 5px;
-    color: $grey-color;
+    color: $black-color;
 }
 
 .post-title, .page-title {
     font-size: 32px;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -350,7 +361,7 @@
 }
 
 .twitter-button {
-    @include button($twitter-color);
+    @include button($shade4);
     margin-bottom:55px;
     .icon {
         > svg {

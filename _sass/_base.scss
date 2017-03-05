@@ -85,13 +85,14 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Patua One', 'Helvetica', cursive;
-    font-weight: $base-font-weight;
-    color:$grey-color;
+    font-family: $alt-font-family;
+    font-weight: $light-font-weight;
+    letter-spacing: -2px;
+    color:$black-color;
     a {
-        color:$grey-color;
+        color:$black-color;
         &:hover {
-            color: $brand-color;
+            color: $shade5;
         }
     }
 }
@@ -101,11 +102,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $shade4;
     text-decoration: none;
 
     &:hover {
-        color: lighten($brand-color, 15%);
+        color: lighten($shade4, 15%);
         text-decoration:none;
     }
 }
@@ -116,11 +117,11 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color;
+    color: $black-color;
+    border-left: 4px solid $black-color;
     padding-left: $spacing-unit / 2;
     font-size: 24px;
-    font-weight:100;
+    font-weight:200;
     font-style: italic;
 
     > :last-child {

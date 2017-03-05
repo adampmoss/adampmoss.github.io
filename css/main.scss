@@ -5,25 +5,34 @@
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$alt-font-family: 'Patua One', 'Helvetica', cursive;
+$alt-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
+$light-font-weight: 900;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 $large-font-size: 28px;
 
 $spacing-unit:     30px;
 
+// Kuler Colours
 
-$background-color: #f8f7f3;
-$brand-color:      #e2672a;
-$adam-color:       #84BD93;
 
+$shade2: #929497;
+$shade3: #CD003A;
+$shade4: #00A2D3;
+$shade5: #333333;
+
+
+$background-color: #ffffff;
+$brand-color:      $shade3;
+$adam-color:       $shade3;
+
+$black-color: #000000;
 $grey-color:       #413f44;
 $grey-color-light: lighten($grey-color, 60%);
 $grey-color-dark:  darken($grey-color, 25%);
-$text-color:       lighten($grey-color, 20%);
-$black-color: #000000;
+$text-color:       $shade2;
 $white-color: #FFFFFF;
 $twitter-color: #1da1f2;
 
@@ -82,5 +91,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "animate"
 ;
