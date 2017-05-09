@@ -167,7 +167,7 @@ define([],
 
 This file is where the magic happens. First we initialise our new JS class `MagentoFoxTrack` and we pass it as an argument with require. This allows our methods to be used wherever and whenever.
 
-We then grab our `customerData` cookie, check that it is not null, parse the JSON which will turn it back into an object, and push to GTM. FInally we delete the cookie on the fly.
+We then grab our `customerData` cookie, check that it is not null, parse the JSON which will turn it back into an object, and push to GTM. Finally we delete the cookie on the fly.
 
 {% highlight html %}
 <script type="text/x-magento-init">
