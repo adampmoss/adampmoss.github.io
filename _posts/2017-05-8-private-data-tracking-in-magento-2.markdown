@@ -22,7 +22,7 @@ Well, in case you haven't guessed this post is all about how to implement GTM tr
 
 I had a situation where I had to track a lot of customer data and therefore had to make this data available in the GTM Data Layer.
 
-To keep it simple I'll jsut focus on how to track a newsletter subscriber's email address when they use the basic newsletter form. This data is not posted back to any page on the website, and even if it was, the name could potentially get cached on the next loaded page meaning the next user could see my email address.
+To keep it simple I'll just focus on how to track a newsletter subscriber's email address when they use the basic newsletter form. This data is not posted back to any page on the website, and even if it was, the name could potentially get cached on the next loaded page meaning the next user could see my email address.
 
 As tracking code normally resides within the page HTML how do you get around this?
 
