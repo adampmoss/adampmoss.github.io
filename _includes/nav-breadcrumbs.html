@@ -1,0 +1,16 @@
+{% if page.page == 'home' %}{% else %}
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  <ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+  <li itemprop="itemListElement" itemscope
+        itemtype="http://schema.org/ListItem"><a href="/"><span itemprop="name">Home</span></a><meta itemprop="position" content="0" /> /</li>
+  {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+      <li itemprop="itemListElement" itemscope
+        itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span><meta itemprop="position" content="{{ forloop.index }}" /></li>
+    {% else %}
+      <li itemprop="itemListElement" itemscope
+        itemtype="http://schema.org/ListItem"><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"><span itemprop="name">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span></a><meta itemprop="position" content="{{ forloop.index }}" /> /</li>
+    {% endif %}
+  {% endfor %}
+  </ol>
+{% endif %}
