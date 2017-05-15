@@ -90,6 +90,6 @@ This example is rather extreme in that modifies the before and after parts of th
 
 ### Summary
 
-There is also another method called [Object.extend](http://api.prototypejs.org/language/Object/extend/) that allows core classes and methods to be extended without touching the core, but I have left this out of this article because it involves the creation of a new class definitions which is slightly different to wat I'm trying to show. Using this would mean having to change the class instances across Magento which could be more time consuming.
+There is also another method called [Object.extend](http://api.prototypejs.org/language/Object/extend/) that allows core classes and methods to be extended without touching the core, but I have left this out of this article because it involves the creation of a new class definitions which is slightly different to what I'm trying to show. Using this would mean having to change the class instances across Magento which could be more time consuming.
 
 Hope you enjoyed the post, feel free to leave comments.

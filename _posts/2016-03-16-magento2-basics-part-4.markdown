@@ -21,7 +21,7 @@ Part 4 is another pretty straighforward section, how to add an event observer in
 
 There are two steps to creating an observer once you've decided which event you want to hook into. First you declare it in a brand-spanking new XML file and then you create the observer class, a separate class for each observer!
 
-### Step 1 - Create Magefox/Example/etc/frontend/routes.xml
+### Step 1 - Create Magefox/Example/etc/frontend/events.xml
 
 In this example we're dealing with a frontend event (meaning that the same event fired in the admin would have no implications).
 
