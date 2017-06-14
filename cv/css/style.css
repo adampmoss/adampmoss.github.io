@@ -4,7 +4,7 @@ body {
 .me {
   margin-top: 20px;
   max-height: 180px;
-  border-radius: 40px 0 40px 0; }
+  border-radius: 0 40px 0 40px; }
 
 .cert {
   margin-bottom: 20px;
@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  padding-bottom: 10px }
+  padding-bottom: 10px;
+  font-size: 16px; }
 
 h1 {
   font-size: 400%; }
@@ -28,15 +29,42 @@ h1 {
   display: none;
 }
 
+.divide {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.contact-details {
+  background: #00A2D3;
+  padding: 10px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.contact-details span  {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 /** Print Styles */
 
 @media print {
 
-  body { font-size: 95% }
+  h1 {
+  font-size: 30px; background-color: #00A2D3 }
 
+   .list-inline {
+    display: none;
+   }
    .list-inline>li {
     margin-bottom: 10px
    }
+
+   .three-col {
+    float: left;
+    width: 33%
+   }
+
    a:link:after, a:visited:after { content:" [" attr(href) "] "; }
 
    .left-column { width:48%; float: left}
@@ -51,5 +79,6 @@ h1 {
   .btn {
     display: none;
   }
+
 }
 

@@ -43,6 +43,7 @@
 }
 
 .site-nav {
+    font-family:$alt-font-family;
     float: right;
     line-height: 70px;
 
@@ -120,6 +121,7 @@
  * Site footer
  */
 .site-footer {
+    font-family: $alt-font-family;
     padding: $spacing-unit 0;
     text-align:center;
 }
@@ -318,6 +320,7 @@
     padding: 0;
     list-style: none;
     li {
+        font-family: $alt-font-family;
         display: inline;
         font-size: $small-font-size;
     }

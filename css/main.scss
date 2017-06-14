@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Georgia", Helvetica, Arial, sans-serif;
 $alt-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
@@ -18,7 +18,7 @@ $spacing-unit:     30px;
 // Kuler Colours
 
 
-$shade2: #929497;
+$shade2: #5f5f5f;
 $shade3: #CD003A;
 $shade4: #00A2D3;
 $shade5: #333333;
@@ -58,6 +58,7 @@ $on-laptop:        800px;
 }
 
 @mixin button($colour) {
+    font-family: $alt-font-family;
     background: $colour;
     color: $white-color;
     padding:7px 13px;
