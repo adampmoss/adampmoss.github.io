@@ -15,7 +15,7 @@ As I write this I am 24 hours removed from my second acquaintance with the Great
 
 ![Ben Nevis](/assets/posts/ben-nevis.jpg)
 
-At this point there’s probably cause for a bit of backstory to understand how I arrived at this personal denouement, so let me set the scene. We had already completed mountain number 1, Ben Nevis in northern Scotland, and what a pleasure it was. Warm air filled the silent, Scottish outback as the evening sunlight delicately kissed the edges of the wild panorama, the descent was a sight to behold, the mountainside at its finest. The climb lasted about 4 hours and we were soon on our way south for the second leg of our journey... and it couldn't have been more different.
+At this point there’s probably cause for a bit of backstory to understand how I arrived at this personal denouement, so let me set the scene. We had already completed mountain number 1, Ben Nevis in northern Scotland, and what a pleasure it was. Warm air filled the silent, Scottish outback as the evening sunlight delicately kissed the edges of the wild panorama. The descent was a sight to behold, the green and gold mountainside at its finest. The climb lasted about 4 hours and we were soon on our way south for the second leg of our journey... and it couldn't have been more different.
 
 Scafell Pike's climate was of the wetter variety, it was 4:30am and the clear blue skies had been replaced with a full coating of heavy, turbulent rain clouds. The hibernating sun gave way to an inexorable downpour, but regardless we started the climb.
 
