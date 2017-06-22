@@ -31,9 +31,9 @@ About 15 minutes into the decent we were faced with the realisation that we had 
 
 > "I had somehow led us down a completely different path."
 
-We deliberated briefly, one possibility that we go back up and start again, another that we search for the nearest recognisable landmark, but hastened by the desire to exit the adverse weather as quickly as possible we opted to continue down the wrong path. The hope was that we’d end up rejoining the previous route at some point. That did not happen, and little did we know that we were about to embark upon a long journey of hapless trudging through what can only be described as no-man’s land.
+We deliberated briefly, one possibility that we go back up and start again, another that we search for the nearest recognisable landmark, but hastened by the desire to exit the adverse weather as quickly as possible we opted to continue down the wrong path. The hope was that we’d ultimately end up rejoining the previous route at some point. Well that did not happen, and little did we know that we were about to embark upon a long journey of hapless trudging through what can only be described as no-man’s land.
 
-A relatively short period of time had passed when we reached something that somewhat resembled ground level as we tumbled down the wrong side of the mountain. It was mostly a course of steep, grassy verges and we adopted a network of gushing mountain tributaries as our guide down the slippery slopes. This eventually led to a stunning waterfall that brought us mercifully to the foot of the mountain, out of the extreme weather, but in the middle of nowhere. We were now totally lost.
+A relatively short period of time had passed when we reached something that somewhat resembled ground level as we recklessly tumbled down the wrong side of the mountain. It was mostly a course of steep, grassy verges and we adopted a network of gushing mountain tributaries as our guide down the slippery slopes. This eventually led to a stunning waterfall that brought us mercifully to the foot of the mountain, out of the extreme weather, but in the middle of nowhere. We were now totally lost.
 
 > "I found my frustration with the situation was also accompanied by a worsening resentment towards the practice of mountain climbing."
 
@@ -41,7 +41,7 @@ Food sources were running low and fatigue was setting in for several of the lads
 
 ![Ben Nevis](/assets/posts/map.jpg)
 
-We finally found our way back to the van after traipsing through 9 miles of valleys, plains, foothills, marshes and rivers in the non-stop rain. I found my frustration with the situation was also accompanied by a worsening resentment towards the practice of mountain climbing. I was pissed off, just like the others were, and from that point I had lost my desire to finish the challenge.
+We finally found our way back to the van after traipsing through 9 miles of valleys, plains, foothills, marshes and rivers in the non-stop rain. I found my frustration with the situation was also accompanied by a worsening resentment towards the practice of mountain climbing. I was pissed off, just like the others probably were, and from that point I had lost my desire to finish the challenge.
 
 > "I’ve always persevered through adversity, but this time I let myself down..."
 
@@ -49,7 +49,7 @@ The challenge itself was technically dead in the water (pun intended) as we had 
 
 Arriving at the point of quitting any physical challenge is not something I’ve ever done before, I’ve always persevered through adversity, but this time I let myself down.
 
-Upon arriving at Mt Snowdon I could have resurrected my wet clothes and coped with the cold fabric for one last push (important lesson - try to bring spare shoes) - this didn’t stop the other guys who simply geared back up and got on with it. Yes, I have already got a successful “3 Peaks Challenge” under my belt so it didn’t mean as much to me as some of the others, and I know that from a physical standpoint I wouldn’t have had any problems with another ascent, despite the extra-curricular events on Scafell Pike. My legs were tired but far from written-off.
+Several hours later upon arriving at Mt Snowdon I could have resurrected my wet clothes and coped with the cold fabric for one last push (important lesson - try to bring spare shoes) - this didn’t stop the other guys who simply geared back up and got on with it. Yes, I have already got a successful “3 Peaks Challenge” under my belt so it didn’t mean as much to me as some of the others, and I know that from a physical standpoint I wouldn’t have had any problems with another ascent, despite the extra-curricular events on Scafell Pike. My legs were tired but far from written-off.
 
 > "I stuffed my sodden clothes & shoes into carrier bags and tied them up with no intention of reopening them until I got home"
 
