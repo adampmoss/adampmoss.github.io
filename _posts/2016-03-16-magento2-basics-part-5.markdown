@@ -172,7 +172,7 @@ Just as we did with the front controller layout XML we do the same with the admi
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
-            <block name="hello.admin" class="\Magefox\Example\Block\Adminhtml\Hello"
+            <block name="hello.admin" class="Magefox\Example\Block\Adminhtml\Hello"
                    template="hello.phtml" />
         </referenceContainer>
     </body>
