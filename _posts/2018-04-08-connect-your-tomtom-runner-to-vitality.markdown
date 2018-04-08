@@ -2,7 +2,7 @@
 layout: post
 title:  "Connect TomTom Runner to Vitality Health"
 permalink: "/blog/connect-your-tomtom-runner-to-vitality/"
-date:   2016-04-08 13:00:00 +0000
+date:   2018-04-08 13:00:00 +0000
 categories: blog
 author: Adam Moss
 comments: true
@@ -10,6 +10,8 @@ body_class: blog
 reading-time: 5 mins
 photo: "/assets/featured/sync.png"
 ---
+
+![Finished](/assets/posts/sync.png)
 
 As a precursor I should mention that the solution I'm describing in this post is for an Apple iPhone, however it could easily be done in a similar fashion on an Android with the equivalent of Apple Health.
 
@@ -21,13 +23,8 @@ I asked TomTom and Vitality via Twitter if they had any intentions of creating a
 
 I signed up to https://www.fitnesssyncer.com which allows you to create a source (TomTom Sports) and a destination (Apple Health) and bingo, the data is now moving across the apps and Vitality no longer thinks I sit on my arse all day (which I suppose I do a lot of anyway).
 
-![Finished](/assets/posts/sync.png)
-
-### How to do it
+## How to do it
 
 1. First, make sure you've downloaded the TomTom Sports app to your phone and that your watch is correctly synced up.
 2. Second, download the Vitality app (for iPhone & Android), go to Settings > Synce Apple Health Data and choose how much data to sync.
 3. Third, create an account on https://www.fitnesssyncer.com, download the app and create a 'Source' from TomTom Sport and a 'Destination' to Apple Health
-
-
-
