@@ -4,7 +4,8 @@
 
 .site-header {
     min-height: 70px;
-    background: $shade4;
+    background: $shade6;
+    border-bottom: 10px solid $shade4;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -38,7 +39,7 @@
     font-weight: 900;
 
     &:hover {
-            color: darken($shade4, 20%);
+            color: $shade7;
         }
 }
 
@@ -56,7 +57,7 @@
         line-height: $base-line-height;
 
         &:hover {
-            color: darken($shade4, 20%);
+            color: $shade7;
         }
 
         // Gaps between nav items, but not on the last one
@@ -193,6 +194,7 @@
  */
 .page-content {
     padding: $spacing-unit+40 0;
+    border-top: 5px solid $shade7;
 }
 
 .page-heading {
